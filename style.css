@@ -166,7 +166,7 @@
 
 body{
     background-color: #405275;
-    height: 200vh;
+    height: fit-content;
 }
 
 a{
@@ -227,4 +227,15 @@ h2{
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 0px;
+}
+
+.map-image{
+    width: 960px;
+    height: 540px;
+}
+
+.map-text{
+    color: white;
+    font-size: 25px;
+
 }

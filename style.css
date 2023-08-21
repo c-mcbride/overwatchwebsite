@@ -156,7 +156,7 @@
 .small{
     height: 86px;
     width: 365px;
-    align-self: center; 
+    align-self: center;
 }
 
 
@@ -184,4 +184,47 @@ h1{
 h2{
     font-family: "Roboto", sans-serif;
     color: white;
+}
+
+.heroes-div{
+    display: grid;
+    background-color: #5191D7;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.heroes-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column-start: 2;
+}
+
+.tank-image{
+    width: 1131px;
+    height: 598px;
+}
+
+.heroes-body{
+    background-color: #5191D7;
+    margin-top: 20px;
+}
+
+.hero-header{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px
+}
+
+.hero-header-top{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0px;
 }

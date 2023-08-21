@@ -133,7 +133,7 @@
     align-self: center;
     max-width: 100%;
     word-wrap: break-word;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .bottom-text-box{
@@ -240,5 +240,5 @@ h2{
 .map-text{
     color: white;
     font-size: 25px;
-
 }
+
